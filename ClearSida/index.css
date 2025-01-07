@@ -1,0 +1,13 @@
+
+
+#FillCleardDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+#numbersDiv div:hover {
+    background-color: beige;
+
+}
