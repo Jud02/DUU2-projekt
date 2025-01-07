@@ -1,0 +1,15 @@
+
+
+#foundSame {
+    display: flex;
+    justify-content: center;
+}
+
+#howMany {
+    margin: 0;
+    padding-right: 10px;
+}
+
+#resetButton {
+    margin: 0;
+}
