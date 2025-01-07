@@ -16,3 +16,17 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
+    const buttonCreate = document.getElementById("buttonCreate");
+    buttonCreate.addEventListener("click", function () {
+        addEventListenersToCells(); 
+    });
+
+    buttonFillCleard.addEventListener("click", function () {
+        const cells = document.querySelectorAll("#numbersDiv div");
+        for (let i = 0; i < cells.length; i++) {
+            cells[i].textContent = originalNumbers[i];
+            cells[i].style.backgroundColor = "";
+        }
+    });
+
+});
