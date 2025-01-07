@@ -1,0 +1,86 @@
+.Body {
+    background-color: #ebe2ef; /* Soft lavender  */
+    margin-top: 55px;
+}
+
+#twolink {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: 50px;
+}
+
+.links {
+    background-color: #F5E6FA; 
+    border: 1px solid #C8A2C8;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 15px;
+    color: #5D3A72;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #E0CCE8; 
+}
+
+#homelinks {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.homea {
+    text-decoration: none;
+    background-color: #F5E6FA; 
+    border: 2px solid #C8A2C8;
+    border-radius: 5px;
+    padding: 10px;
+    color: #5D3A72; 
+}
+
+input {
+    margin-left: 8px;
+}
+
+.headerpart2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.headerpart2 p {
+    font-style: italic;
+    font-weight: bold;
+}
+
+button {
+    background-color: #D7BCE8; 
+    padding: 1.3px 8px 1.3px 8px;
+    margin-left: 8px;
+    border: 2px solid #A689BC; 
+    border-radius: 2px;
+}
+
+#numbersDiv {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-auto-rows: 40px;
+    gap: 8px;
+    font-size: 17px;
+    width: 1000px;
+    margin: 0 auto;
+    justify-self: center;
+    margin-top: 30px;
+}
+
+#numbersDiv div {
+    border: 1px solid #C8A2C8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background-color: #D7BCE8; 
+    width: 67px;
+}
