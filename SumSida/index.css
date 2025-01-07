@@ -1,0 +1,24 @@
+#headerpart3, #headerpart4 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#headerpart3 p, #headerpart4 p {
+    margin: 5px;
+}
+
+#top, #bottom {
+    background-color: white;
+    padding: 5px 50px 5px 50px;
+
+}
+
+
+#numbersDiv div.add {
+    background-color: rgb(241, 55, 148);
+}
+
+
