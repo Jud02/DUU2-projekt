@@ -1,0 +1,10 @@
+
+.headerpart3 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#inputNumber {
+    width: 60px;
+}

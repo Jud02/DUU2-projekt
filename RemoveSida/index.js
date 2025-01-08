@@ -20,6 +20,8 @@ newRandomButton.addEventListener("click", function () {
 });
 
 
+
+
 const removeButton = document.getElementById("removeButton");
 const rightParagraph = document.getElementById("right");
 

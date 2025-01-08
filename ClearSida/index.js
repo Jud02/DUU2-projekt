@@ -1,4 +1,5 @@
 
+
 document.addEventListener("DOMContentLoaded", function () {
     const buttonFillCleard = document.getElementById("buttonFillCleard");
     let originalNumbers = [];
