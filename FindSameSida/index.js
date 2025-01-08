@@ -35,3 +35,19 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
+
+    resetButton.addEventListener("click", function () {
+        const cells = document.querySelectorAll("#numbersDiv div");
+        for (let i = 0; i < cells.length; i++) {
+            cells[i].style.backgroundColor = "";
+        }
+        pElement.textContent = "Click on a number to find copies";
+    });
+
+
+
+    const buttonCreate = document.getElementById("buttonCreate");
+    buttonCreate.addEventListener("click", function () {
+        addEventListenersToCells(); 
+    });
+});
